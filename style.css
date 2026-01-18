@@ -1,15 +1,12 @@
-
+*{
+    box-sizing: border-box;
+}
 
 body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
 
-#max-width{
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
-}
 
 .btn{
     background:linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
@@ -22,6 +19,10 @@ body{
      color: transparent;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @import "tailwindcss"
 
-class="  mt-20 lg:w-[350px] lg:h-[350px]  bg-[url('./assets/hero-circle.png')] bg-no-repeat  flex items-center justify-center mx-auto relative"
