@@ -23,3 +23,5 @@ body{
 }
 
 @import "tailwindcss"
+
+class="  mt-20 lg:w-[350px] lg:h-[350px]  bg-[url('./assets/hero-circle.png')] bg-no-repeat  flex items-center justify-center mx-auto relative"

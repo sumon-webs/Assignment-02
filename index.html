@@ -12,22 +12,25 @@
     <!-- Header section -->
      <header>  
         <nav class="bg-[rgba(26,11,46,1)] nav-section  border-b-2 border-[rgba(65,37,103,1)] ">
-            <div id="max-width" class="flex justify-between items-center py-7 nav-container">
+            <div id="max-width" class="flex justify-between items-center py-7 px-4 nav-container">
                 <h1 class=" text-white font-bold text-4xl logo">Tech<span class="logo-span">Weave</span></h1>
-                <ul class=" text-[rgba(255,255,255,1)] flex gap-8 tex-[16px">
+                <ul class=" text-[rgba(255,255,255,1)] lg:flex gap-8 tex-[16px] hidden lg:block">
                     <li><a href="">Home</a></li>
                     <li><a href="">Episodes</a></li>
                     <li><a href="">Host</a></li>
                 </ul>
-            <button class=" text-[rgba(255,255,255,1)] btn font-normal py-2 px-3 rounded-4xl">Subscribe <i class="fa-solid fa-arrow-right"></i></i></button>
+            
+            <button class=" text-[rgba(255,255,255,1)] btn font-normal py-2 px-3 rounded-4xl hidden lg:block">Subscribe <i class="fa-solid fa-arrow-right"></i></i></button>
+            <img class=" lg:hidden" src="./assets/hamburger-menu.png" alt="">
             </div>
         </nav>
 
         <!-- Hero section -->
          <div class="bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-cover">
             <div id="max-width" class=" flex flex-col justify-between text-center p-16">
-            <div class=" mt-20 w-[350px] h-[350px]  bg-[url('./assets/hero-circle.png')] bg-no-repeat  flex items-center justify-center mx-auto pt-">
+            <div class="  mt-20 w-[350px] h-[350px]  bg-[url('./assets/hero-circle.png')] bg-no-repeat  flex items-center justify-center mx-auto relative">
                 <img src="./assets/microphone.png" alt="">
+                <p class=" bg-[#00FF88] text-black font-medium py-1 px-4 rounded-4xl absolute top-5 right-3">New</p>
             </div>
             <h1 class=" text-6xl font-extrabold text-white pt-10 pb-3.5">TechWave</h1>
             <p class=" text-[#e6dbdb]">Your daily dose of tech insights, productivity hacks, and personal growth</p>
@@ -43,13 +46,13 @@
         <!-- Prodcust section -->
         <section class="bg-[rgba(26,11,46,1)] ">
             <div id="max-width" >
-                <div class=" text-center border-b-2 border-[rgba(65,37,103,1)] pb-20 px-16 space-y-5">
-                <h1 class=" text-5xl font-extrabold text-white pt-10">About the Podcast</h1>
+                <div class=" text-center border-b-2 border-[rgba(65,37,103,1)] pb-20 px-5 lg:px-16 space-y-5">
+                <h1 class="  text-3xl lg:text-5xl font-extrabold text-white pt-10">About the Podcast</h1>
                 <p class=" text-[#e6dbdb] leading-8">TechWave is your go-to podcast for staying aheadin  the fast-paced world of technology. We breakdown    complex topics into digestible insights,explore   productivity strategies that actuallywork, and share     stories of personal growth fromindustry leaders.
                 </p>
                 <p class=" text-[#e6dbdb]">Join thousands of young professionals and tech  enthusiasts who start their day with TechWave.</p>
             </div>
-            <div class=" mt-20 flex justify-between pb-27" > 
+            <div class=" grid grid-cols-2 gap-10 mt-20 lg:flex justify-between px-5 lg:px-0 pb-27" > 
                 <div class=" text-center">
                     <h1 class=" text-[rgba(0,255,136,1)] text-5xl font-bold mb-2">150K+</h1>
                     <p class=" text-[#e6dbdb]">Monthly Listeners</p>
@@ -72,9 +75,9 @@
 
         <!-- Choose section -->
          <section class=" bg-[rgba(35,14,61,1)]">
-            <div id="max-width" class=" py-32">
-                <h1 class=" text-5xl font-extrabold text-white  text-center pb-10">Why Choose TechWave</h1>
-                <div class=" grid grid-cols-3 gap-8">
+            <div id="max-width" class=" px-5 py-32">
+                <h1 class="  text-3xl lg:text-5xl font-extrabold text-white  text-center pb-10">Why Choose TechWave</h1>
+                <div class=" space-y-4 lg:grid grid-cols-3 gap-8">
                     <div class=" space-y-4  bg-[rgba(53,17,101,0.4)] p-10 rounded-4xl row-span-2">
                         <img src="./assets/headphone.png" alt="">
                         <h3 class=" text-[rgba(255,255,255,1)] text-2xl">Premium Audio Quality</h3>
@@ -107,9 +110,9 @@
 
          <!-- Feature choose section -->
           <section class=" bg-[rgba(26,11,46,1)]">
-            <div  id="max-width" class=" py-32 text-center" >
-                <h2 class=" text-5xl font-extrabold text-white pb-10">Why Choose TechWave</h2>
-                <div class=" grid grid-cols-3 gap-10  relative">
+            <div  id="max-width" class=" px-5 py-32 text-center" >
+                <h2 class="  text-3xl lg:text-5xl font-extrabold text-white pb-10">Why Choose TechWave</h2>
+                <div class="  space-y-10 lg:grid grid-cols-3 gap-10  relative">
                     <div class=" bg-[rgba(37,13,68,1)] text-start rounded-3xl">
                         <iframe class=" w-full h-50 rounded-3xl" src="https://www.youtube.com/embed/bdpyQm5l78o?si=c6AT-IrD3YLhiZR3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>>
                         <div class=" p-6">
@@ -146,14 +149,14 @@
 
           <!-- Chalange part -->
           <section class=" bg-[rgba(26,11,46,1)]">
-            <div id="max-width" class=" py-32 text-center" >
-                <h1 class=" text-5xl font-extrabold text-white pb-10">Meet the Host</h1>
-                <div class=" bg-[rgba(53,17,101,0.4)] flex p-10 rounded-4xl gap-10">
-                    <img src="./assets/host.png" alt="">
+            <div id="max-width" class="  p-5 lg:py-32 text-center" >
+                <h1 class=" text-3xl lg:text-5xl font-extrabold text-white pb-10">Meet the Host</h1>
+                <div class="  bg-[rgba(53,17,101,0.4)] lg:flex p-10 rounded-4xl gap-10">
+                    <img class=" mx-auto" src="./assets/host.png" alt="">
                     <div class=" text-start space-y-4">
-                        <h3 class=" text-white text-2xl">Alex Kumar</h3>
-                        <p class=" text-[#e6dbdb] leading-6">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
-                        <div class=" flex gap-3 items-center">
+                        <h3 class=" text-center text-white text-2xl">Alex Kumar</h3>
+                        <p class="text-center text-[#e6dbdb] leading-6">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                        <div class=" justify-center flex gap-3 items-center">
                             <img class=" border-2 border-[rgba(83,60,114,1)] p-2.5 rounded-[50%] " src="./assets/linkedin.png" alt="">
                             <img class=" border-2 border-[rgba(83,60,114,1)] p-2.5 rounded-[50%] " src="./assets/x.png" alt="">
                             <img class=" border-2 border-[rgba(83,60,114,1)] p-2.5 rounded-[50%] " src="./assets/instagram.png" alt="">
@@ -168,9 +171,9 @@
 
       <!-- Footer section -->
        <footer class=" bg-[url('./assets/footer-bg.png')] bg-no-repeat bg-cover">
-        <div class=" flex flex-col justify-center items-center space-y-10 text-center py-29">
+        <div class="py-10 flex flex-col justify-center items-center space-y-10 text-center lg:py-29">
             <h1 class=" text-white font-bold text-5xl logo">Tech<span class="logo-span">Weave</span></h1>
-                <ul class=" flex gap-10.5">
+                <ul class=" grid grid-cols-2 justify-items-center gap-3 lg:flex lg:gap-10.5">
                     <li class=" flex gap-3 items-center">
                         <img src="./assets/spotify.png" alt="">
                         <p class=" text-[#e6dbdb]">Spotify</p>
