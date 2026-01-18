@@ -3,10 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>TechWeave</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1> </h1>
+    <!-- Header section -->
+     <header>  
+        <nav class="bg-[rgba(26,11,46,1)] nav-section  border-b-2 border-[rgba(65,37,103,1)] ">
+            <div id="max-width" class="flex justify-between items-center py-7 nav-container">
+                <h1 class=" text-white font-bold text-4xl logo">Tech<span class="logo-span">Weave</span></h1>
+                <ul class=" text-[rgba(255,255,255,1)] flex gap-8 tex-[16px">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Episodes</a></li>
+                    <li><a href="">Host</a></li>
+                </ul>
+            <button class=" text-[rgba(255,255,255,1)] btn font-normal py-2 px-3 rounded-4xl">Subscribe <i class="fa-solid fa-arrow-right"></i></i></button>
+            </div>
+        </nav>
+
+        <!-- Hero section -->
+         <div class="bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-cover">
+            <div id="max-width" class=" flex flex-col justify-between text-center p-16">
+            <div class=" mt-20 w-[350px] h-[350px]  bg-[url('./assets/hero-circle.png')] bg-no-repeat  flex items-center justify-center mx-auto pt-">
+                <img src="./assets/microphone.png" alt="">
+            </div>
+            <h1 class=" text-6xl font-extrabold text-white pt-10 pb-3.5">TechWave</h1>
+            <p class=" text-[#e6dbdb]">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+            <div class=" mt-6 pb-24 space-x-3" >
+                <button class="btn text-[rgba(255,255,255,1)]  font-normal py-2 px-3 rounded-4xl"> <i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+                <button class=" border-2 border-[rgba(0,255,136,1)] text-[rgba(0,255,136,1)]  font-normal py-2 px-3 rounded-4xl cursor-pointer"><i class="fa-regular fa-envelope"></i>  Subscribe</button></div>
+            </div>
+         </div>
+     </header>
+
+     <!-- Maine -->
+      <main>
+        <!-- Prodcust section -->
+        <section class="bg-[rgba(26,11,46,1)] mb-11">
+            <div id="max-width" >
+                <div class=" text-center border-b-2 border-[rgba(65,37,103,1)] pb-20 px-16 space-y-5">
+                <h1 class=" text-5xl font-extrabold text-white pt-10">About the Podcast</h1>
+                <p class=" text-[#e6dbdb] leading-8">TechWave is your go-to podcast for staying aheadin  the fast-paced world of technology. We breakdown    complex topics into digestible insights,explore   productivity strategies that actuallywork, and share     stories of personal growth fromindustry leaders.
+                </p>
+                <p class=" text-[#e6dbdb]">Join thousands of young professionals and tech  enthusiasts who start their day with TechWave.</p>
+            </div>
+            <div class=" mt-20 flex justify-between pb-27" > 
+                <div class=" text-center">
+                    <h1 class=" text-[rgba(0,255,136,1)] text-5xl font-bold mb-2">150K+</h1>
+                    <p class=" text-[#e6dbdb]">Monthly Listeners</p>
+                </div>
+                <div class=" text-center">
+                    <h1 class=" text-[rgba(0,255,136,1)] text-5xl font-bold mb-2">200+</h1>
+                    <p class=" text-[#e6dbdb]">Episodes Published</p>
+                </div>
+                <div class=" text-center">
+                    <h1 class=" text-[rgba(0,255,136,1)] text-5xl font-bold mb-2">4.9★</h1>
+                    <p class=" text-[#e6dbdb]">Average Rating</p>
+                </div>
+                <div class=" text-center">
+                    <h1 class=" text-[rgba(0,255,136,1)] text-5xl font-bold mb-2">50+</h1>
+                    <p class=" text-[#e6dbdb]">Industry Experts</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Choose section -->
+         <section class=" bg-[rgba(35,14,61,1)]">
+            <div>
+                
+            </div>
+         </section>
+      </main>
 </body>
 </html>
