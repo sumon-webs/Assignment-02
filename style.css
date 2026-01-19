@@ -24,5 +24,23 @@ html, body {
   overflow-x: hidden;
 }
 
+@keyframes colorChange {
+   0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(700px);
+  }
+}
+
+.box {
+  border-radius: 50%;
+  animation: colorChange 8s infinite alternate ease-in-out;
+}
+
+.fa-music{
+    color:rgb(156, 131, 189);
+
+}
 @import "tailwindcss"
 
